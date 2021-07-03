@@ -1,0 +1,75 @@
+.bg-primary {
+	background: #b2d9f5;
+	color: #333;
+}
+
+.bg-secondary {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.bg-light {
+	color: #333;
+	background: #f4f4f4;
+}
+
+.bg-dark {
+	color: #fff;
+	background: #000;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: solid 1px none;
+	background: #fbe0c4;
+	border-radius: 5px;
+}
+
+.flex-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.flex-columns .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.flex-columns .column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.flex-columns .column .column-1 {
+	height: 100%;
+	padding: 30px;
+}
+
+.section-header h3 {
+	text-align: center;
+	padding: 40px 0 50px;
+	font-size: 40px;
+}
+
+.flex-items {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 20px 100px 100px;
+}
+.flex-items.div {
+	margin: 20px;
+}
+
+.flex-items p {
+	font-size: 20px;
+	padding: 20px 0;
+}
